@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Ad Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">Take Picture</string>
+    <string name="title_activity_disp_comp_details">Company Details</string>
+    <string name="title_activity_history_details">History</string>
+    <string name="title_activity_dialog_comp_details">Dialog</string>
+    
+    <string name="capture">Capture</string>
+    <string name="history">History</string>
+    <string name="flash">Flash</string>
+
+</resources>

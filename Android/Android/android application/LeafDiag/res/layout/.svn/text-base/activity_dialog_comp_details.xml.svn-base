@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="225dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:padding="12dip"
+    tools:context=".DialogCompDetails" >
+
+      <TextView
+          android:id="@+id/add_history"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/finish_dialog"
+          android:gravity="center_horizontal"
+          android:layout_weight="0.49"
+          android:text="Successfuly added to the history!"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/finish_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:onClick="finishDialog"
+        android:text="Close" />
+
+</RelativeLayout>

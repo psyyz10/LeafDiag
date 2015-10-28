@@ -1,0 +1,107 @@
+How to use?
+
+Menus:
+1. File
+User clicks ¡°File¡± menu button or use key ¡°alt + F¡±: 
+Four menu items show, there are ¡°New¡±, ¡°Open¡±, ¡°Save¡±, ¡°Exit¡±.
+
+User clicks ¡°New¡±menu item or use key ¡°alt + N¡±:
+ A dialogue shows for entering data including file name, maximum latitude, 
+ minimum latitude, maximum longtitude, minimum longtitude.
+a.	User clicks ¡°OK¡±:  
+a1. There are some text fields empty or input type is incorrect:  dialogue ¡°Enter 
+a string for file name and numbers for latitude, longtitude and elevation¡± shows.
+a2. Input type is correct: new¡°.csv¡± file has been created and opened in tab pane.
+b.	User clicks ¡°Cancel¡±: the dialogue disappears.
+
+User clicks ¡°Open¡±menu item use key ¡°alt + O¡±:
+A file chooser shows to choose csv (only csv file displayed):
+a.	The file data is not a GPS format (four data each line):  show dialogue
+ ¡°This is not a GPS file¡±.
+b.	The file data is in correct format: file opens and shows in tab pane.
+
+User clicks ¡°Save As¡± menu item:
+a.	If there are no file opend, show message ¡°Open a file or create a new file first¡±.
+b.	A file chooser appears:
+b1. User entries a file name ends with ¡°.csv¡±,  the csv format file saved.
+b2. User entries a file not ends with ¡°.csv¡±, the files name atomatically adds
+ ¡°.csv¡±, and save as csv formate file.
+User clicks ¡°Save¡± menu item or use key ¡°alt + S¡±:
+a.	If the file has been saved in a path before, then the file saves in that path.
+b.	If the file has not been saved before, then do then same function as ¡°Save as¡±.
+
+User clicks ¡°Exit¡± menu item use key ¡°alt + E¡±:
+a.	A dialogue shows ¡°save the change?¡±
+a1.Click ¡°yes¡±: the same function with ¡°Save¡± menu item.
+a2. Click ¡°no¡±: exit without saving.
+a3.Click ¡°cancel¡±: cancel the exit action.
+2. View
+User clicks ¡°View¡± menu buttonor use key ¡°alt + V¡±: 
+Tree check box button menu items show, there are ¡°Show list panel¡±,
+ ¡°Show data panel¡±, ¡°Show map panel¡±.
+User clicks ¡°list panel¡±:
+a.	Check box is selected:list panel show.
+b.	Check box is not selected:list panel disappear.
+User clicks ¡°Show data panel¡±:
+a.	Check box is selected:datapanel show.
+b.	Check box is not selected: datapanel disappear.
+User clicks ¡°Show map panel¡±:
+a.	Check box is selected:map panelshow.
+b.	Check box is not selected: map paneldisappear.
+
+Map Tabbed Pane:
+Precondition: There is one or more files open.
+User clicks the close icon.
+Postioncondition : the gps file closed.
+
+Precondition: There are more than one files open.
+User clicks another tab pane.
+Postioncondition :the model has been tansformed for the selected tab of 
+gps file and displayed in the displayed panel.
+
+Tool bar:
+User clicks¡°New¡± image button: the same function as ¡°New¡± menu item.
+User clicks ¡°Open¡± image button: the same function as ¡°Open¡± menu item.
+User clicks ¡°Save¡± image button: the same function as ¡°Save¡± menu item.
+
+Data Entry Panel:
+User clicks ¡°Add¡± button or use key ¡°alt + A¡±:
+a.	A file has been created or opened:
+a1. Name text field is empty:  show dialogue message "Name cannot be empty".
+a2. Latitude, Longtitude or elevation text field is empty or not number type:
+ show message "Enter numbers for latitude, longtitude and elevation.
+a3. Input data format is correct: a data has been added to the store model and
+ up-left table, and data enter panel also displays the input data.
+b.	A file has not been created or opened:
+b1. show message ¡°Open a file or create a new file first¡±.
+User clicks ¡°Delete¡± button or use key ¡°alt + D¡±:
+a.	A file has been created or opened:
+a1. There are some data in the model, displayed data has been deleted from both 
+model and up-left table, and data entry panel shows the previous waypoint data.
+b2. There are some data in the model, nothing 
+b.	A file has not been created or opened:
+b1. show message ¡°Open a file or create a new file first¡±.
+User clicks ¡°Previous¡± button or use key ¡°alt + P¡±:
+a.	A file has been created or opened:
+a1. There is no waypoint data in model: show message ¡°There is no waypoint data¡±.
+a2. Else: data entry panel displays previous waypoint data. 
+b.	A file has not been created or opened:
+b1. show message ¡°Open a file or create a new file first¡±.
+User clicks ¡°Next¡± button:
+a.	A file has been created or opened:
+a1. There is no waypoint data in model: show message ¡°There is no waypoint data¡±.
+a2. Else: data entry panel displays next waypoint data. 
+b.	A file has not been created or opened:
+b1. show message ¡°Open a file or create a new file first¡±.
+Split pane:
+User can use split pane resize the view parts.
+
+Shortcut key:
+ctrl + N¡±:  the same function as ¡°new¡± menu item.
+ctrl + O¡±:  the same function as ¡°open¡± menu item.
+ctrl + S¡±:  the same function as ¡°save¡± menu item.
+
+Extra function:
+If user changes the file but not save it, in the tabbed pane title, 
+there will be a ¡°*¡± before the title.
+If user save the changed file, the ¡°*¡± will disappear.

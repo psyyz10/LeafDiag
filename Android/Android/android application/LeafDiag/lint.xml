@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/g52grp/androidadreader/PhotoHandler.java" />
+    </issue>
+</lint>
