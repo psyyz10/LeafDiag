@@ -1,12 +1,8 @@
-## BidApp
-BidApp is a group project. I play a role of **technical lead** and **main programmer**. BidApp is a system providing users with a website, accessible via web browsers on mobile devices, which aimed to improve the process of online auctioning. The user can set and bid an auction in this platform. The fucntions are shown in the following flow-chart. The project was developed with **J2EE, JS, CSS, JQuery**. Some advanced alogrithms are designed and implemented such as proxy bidding, item recommendation, and P2P Network Reputation Management. The project and report was given a **first-class** mark 74, and I got a **highest individual mark 84** (70 is a first class mark in UK, as A+ in US). The source code can be accessed from [here](https://github.com/psyyz10/BidApp) and the report can be accessed from [here](https://github.com/psyyz10/BidApp/blob/master/documents/G52GRPFinalGroupReportGP12-MVR2.pdf).
-
-Sample page:
+## LeafDiag
+This my undergraduate final year project. LeafDiag is an *Android* mobile application which can automatically identify the plants diseases based on its leaf appearance with some **computer vision** and **machine learning** techniques. The target group of the user is those who request a free and quick diagnosis on common leaf disease at any time of the day. EM and Otsu algorithms were used for segmentation. Color histogram and Tamura’s texture feature were extracted. *ANN, SVM* and *Random Forest* learning models were built respectively. Experiments and evaluations on different segmentations, feature extractions and classification methods were done to find the most effective approach. The higest average accuracy is **96.4%**. Another desktop version was also developed. The application was mainly built with *Java and Matlab*. It was rewarded as a **first class project**. The source code can be access [here](https://github.com/psyyz10/LeafDiag). The report can be accessed [here](https://github.com/psyyz10/LeafDiag/blob/master/project.pdf).
+<div style="width:830; background-color:white;  overflow:auto;">
 <center>
-	<img src="https://psyyz10.github.io/projects/bidapp.png">
+        <img style=" float:left; display:inline"  src="https://psyyz10.github.io/projects/grass.png" width="200">
+	<img style=" float:left; display:inline"  src="https://psyyz10.github.io/projects/screen.png" width="200">
 </center>
-The functions and page flow:
-
-<center>
-	<img src="https://psyyz10.github.io/projects/bidflow.png" width= "550">
-</center>
+</div>
